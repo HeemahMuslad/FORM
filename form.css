@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  min-height: 100vh;
+  gap: 30px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.text h1 {
+  font-size: 3rem;
+  color: white;
+}
+.text p {
+  font-size: 16px;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form h3 {
+  width: 100%;
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px hsl(249, 10%, 26%);
+  color: white;
+  font-size: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px 20px;
+  box-shadow: 1px 1px 1px 1px hsl(249, 10%, 26%);
+  gap: 1px;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px hsl(246, 25%, 77%);
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  
+}
+form #btn {
+  background-color: hsl(154, 59%, 51%);
+  box-shadow: 1px 1px 1px 1px hsl(249, 10%, 26%);
+  cursor: pointer;
+}
+form #btn:hover {
+  background-color: transparent;
+  color: hsl(154, 59%, 51%);
+}
+form p {
+  font-size: 16px;
+  text-align: center;
+}
+#terms {
+  color: red;
+}
+@media screen and (max-width: 375px) {
+  body {
+    padding: 15px;
+  }
+  .body {
+    flex-direction: column;
+    width: 100%;
+
+    padding: 0;
+  }
+}
