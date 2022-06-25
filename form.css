@@ -68,7 +68,6 @@ form input {
   border-radius: 5px;
   border: none;
   background-color: transparent;
-  
 }
 form #btn {
   background-color: hsl(154, 59%, 51%);
@@ -86,14 +85,40 @@ form p {
 #terms {
   color: red;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   body {
     padding: 15px;
   }
   .body {
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+  }
+  .text,
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 520px) {
+  body {
+    padding: 5px;
+  }
+  .body {
     flex-direction: column;
     width: 100%;
-
     padding: 0;
+  }
+    .body {
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+  }
+  .text,
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
 }
