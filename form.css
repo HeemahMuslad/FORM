@@ -84,6 +84,7 @@ form p {
 }
 #terms {
   color: red;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   body {
